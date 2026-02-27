@@ -26,13 +26,13 @@ describe('NPort Worker', () => {
       await waitOnExecutionContext(ctx);
 
       expect(response.status).toBe(301);
-      expect(response.headers.get('Location')).toBe('https://nport.link/');
+      expect(response.headers.get('Location')).toBe('https://port.tannhatcms.io.vn/');
     });
 
     it('redirects to nport.link (integration style)', async () => {
       const response = await SELF.fetch('http://example.com', { redirect: 'manual' });
       expect(response.status).toBe(301);
-      expect(response.headers.get('Location')).toBe('https://nport.link/');
+      expect(response.headers.get('Location')).toBe('https://port.tannhatcms.io.vn/');
     });
   });
 
