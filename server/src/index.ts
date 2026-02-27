@@ -112,7 +112,7 @@ const DEFAULT_MAX_CLEANUPS_PER_RUN = 10;
 const CF_API_BASE = 'https://api.cloudflare.com/client/v4';
 
 /** HTTP redirect status codes */
-const HTTP_REDIRECT_URL = 'https://nport.link';
+const HTTP_REDIRECT_URL = 'https://port.tannhatcms.io.vn';
 
 // ============================================================================
 // Cloudflare API Client
